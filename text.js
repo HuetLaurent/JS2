@@ -172,7 +172,7 @@ classe_vainqueur(classe1, classe2)*/
 
 //exercice 5
 
-let num = [1, 78, 154, 28, 71, 35, 54, 170, 222, 320];
+/*let num = [1, 78, 154, 28, 71];
 
 let maximum = (a) => {
     let max = a[0];
@@ -185,3 +185,18 @@ console.log(max);
 }
 
 maximum(num);
+
+//exercice 6
+
+let miror = (a) => {
+    let miror = [a[0]];
+    for(let i = 1 ; i < a.length ; i++) {
+        miror.push(a[i]);
+    }
+    for(let i = a.length - 2 ; i >= 0 ; i--) {
+        miror.push(a[i]);
+    }
+    console.log(miror);
+}
+
+miror(num);*/
